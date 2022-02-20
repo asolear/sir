@@ -185,28 +185,8 @@
 </div> -->
 
 
-<!-- cookies -->
-<div class="alert text-center cookiealert" role="alert">
-    <h4> Aviso Cookies</h4>
-    <br>
-    Este sitio web utiliza cookies para que usted tenga una mejor experiencia de usuario.
-    <br>
-    Si continúa navegando está dando su consentimiento para la aceptación de las mencionadas
-    cookies y la aceptación de nuestra política de cookies.
-    <br>
-    Las cookies no se utilizan para recoger información de carácter personal.
-    <a href="https://cookiesandyou.com/" target="_blank">Saber más</a>
-    <a href="#" type="button" style="color:green;" class="btn btn-green btn-lg acceptcookies">
-        Acepto
-    </a>
-        <br>
-    <br>
-    <br>
-
-</div>
 
 
 <!-- <iframe hidden allowfullscreen="true" src="https://asolearapp-psqrfpso4a-ew.a.run.app/"width="100%" height="75%" style="border: 1px solid #fff; max-width: 1200px; min-height:2500px" > </iframe>
  -->
 
-<iframe hidden src="https://asolearapp-psqrfpso4a-nw.a.run.app/" style="position:fixed; top:55px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"> Your browser doesn't support iframes </iframe>
