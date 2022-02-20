@@ -15,7 +15,7 @@
 <h4 style="color:Orange;">Renovables. Viabilidad, costes e incentivos.</h4>
 </center>
 <residencial>
-=== "  :fontawesome-solid-home:  Hogar "
+=== "  Hogar "
     ???+ warning ":fontawesome-solid-solar-panel: (FV) Ejemplo: Hogar de 70 m2 donde conviven cuatro personas con un consumo anual estimado de unos 4.000 kWh "
         ??? question " ¿Que se instala?  :fontawesome-solid-solar-panel: FV  3 kWp"
             === ":fontawesome-solid-solar-panel:  3 kWp  "
