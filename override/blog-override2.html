@@ -1,0 +1,31 @@
+{# Import the original template, required. #}
+{% extends "blog.html" %}
+
+{# A macro to render a blog entry, required. #}
+{% macro render_blog(title, description, time, url, pg) -%}
+<a href="{{ url }}">
+    <div class="blog-override-post">
+        <h1 class="blog-post-title">{{ title }}</h1>
+        <img src="./img/{{ title }}.png" style="width:100%" alt="">
+
+        <p class="blog-post-description">{{ description }}</p>
+        <div class="blog-post-extra">
+        </div>
+    </div>
+</a>
+
+{{ caller() }}
+
+
+
+
+
+{%- endmacro %}
+
+{# Custom css styles, optional. #}
+{% block style %}
+{{ super() }}
+{% endblock %}
+
+
+
