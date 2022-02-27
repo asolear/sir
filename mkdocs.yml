@@ -33,7 +33,7 @@ theme:
     - header.autohide
   language: es
   palette:
-    primary: white
+    primary: success
   name: material
   language: es
   favicon: assets/favicon.ico
@@ -71,7 +71,10 @@ markdown_extensions:
   - pymdownx.tilde
 plugins:
   - search
-  - mknotebooks
+  - pdf-export:
+      verbose: true
+      media_type: print
+      enabled_if_env: ENABLE_PDF_EXPORT
   # - blog:
   #     format: "(%m/%d/%y)"
   #     text-align: "right"
